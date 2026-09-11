@@ -1,0 +1,45 @@
+.hero {
+  min-height: 90vh;
+  padding: 80px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.hero h2 {
+  margin: 15px 0;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.hero img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    width: min(350px, 85vw);
+    height: min(350px, 85vw);
+  }
+}

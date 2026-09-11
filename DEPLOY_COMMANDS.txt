@@ -1,0 +1,23 @@
+LAB10 Deploy Commands
+
+Open terminal in this project folder and run:
+
+bun install
+bun run build
+
+git init
+git add .
+git commit -m "LAB10 Portfolio"
+git branch -M main
+git remote add origin https://github.com/kirint-dev/kirin.git
+git push -u origin main
+
+bun run deploy
+
+Then open:
+https://kirint-dev.github.io/kirin/
+
+If 'remote origin already exists' appears, use:
+git remote set-url origin https://github.com/kirint-dev/kirin.git
+git push -u origin main
+bun run deploy
