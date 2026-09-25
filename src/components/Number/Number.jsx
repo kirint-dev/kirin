@@ -1,6 +1,9 @@
-import CountUp from "react-countup";
+import CountUpLib from "react-countup";
 import { useInView } from "react-intersection-observer";
 import "./Number.css";
+
+const CountUp =
+  typeof CountUpLib === "function" ? CountUpLib : CountUpLib.default;
 
 function Number() {
   const { ref, inView } = useInView({

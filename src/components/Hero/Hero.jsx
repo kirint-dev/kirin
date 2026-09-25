@@ -1,6 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
-import Tilt from "react-parallax-tilt";
+import TiltLib from "react-parallax-tilt";
 import "./Hero.css";
+
+const Tilt = typeof TiltLib === "function" ? TiltLib : TiltLib.default;
 
 function Hero() {
   return (
