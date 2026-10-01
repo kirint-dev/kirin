@@ -1,40 +1,16 @@
-# LAB 10 Portfolio
+### Hi 👋 My name is Kirin Thanjai
 
-Project structure follows the LAB 10 requirements:
-- React + Vite + Bun
-- Navbar
-- Hero
-- Skills
-- Portfolio
-- Number
-- Footer
-- react-icons
-- react-parallax-tilt
-- react-type-animation
-- react-countup
-- react-intersection-observer
-- GitHub Pages deployment with gh-pages
+**Student Developer | Web Developer**
+- 🌍 I'm based in Thailand
+- 🌱 I'm currently learning and building small web projects
+- 💼 Check out my portfolio: [kirint-dev.github.io/kirin/](https://kirint-dev.github.io/kirin/)
 
-## Run
+### 🛠️ Tech Stack
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,github" alt="My Skills" />
+</p>
 
-```bash
-bun install
-bun dev
-```
+### 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kirint-dev&show_icons=true&theme=radical)
 
-## Before deploying
-
-Configured for GitHub repository: `https://github.com/kirint-dev/kirin`
-
-Then run:
-
-```bash
-bun run deploy
-```
-
-## GitHub settings already configured
-
-- Username: `kirint-dev`
-- Repository: `kirin`
-- Remote URL: `https://github.com/kirint-dev/kirin.git`
-- GitHub Pages URL: `https://kirint-dev.github.io/kirin/`
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kirint-dev&layout=compact&theme=radical)
